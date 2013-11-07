@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+body {
+	font: 14px 'Lato', sans-serif;
+}
+
+a {color: #336699; text-decoration: none;}
+a:hover {color: #336699; text-decoration: underline;}
+
+#end {margin: 100px 0; text-align: center;}
+
+#question {
+	margin: 100px 0; padding: 0 50px;
+	
+	color: #333;
+	font-size: 64px; font-weight: bold;
+	text-align: center;
+	line-height: 84px;
+}
+#timer {
+	width: 120px;
+	margin: 0 auto 50px auto; padding: 4px 0;
+	
+	color: #666;
+	border: 2px #999 solid;
+	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+	font-size: 24px;
+	text-align: center;
+}
+.warning {background: #ffcc66;}
+.fail {background: #ff9999;}
+
+.tip {text-align: center;}
+.tip strong {margin-right: 5px;}
+
+.controls {
+	width: 320px; height: 70px;
+	margin: 50px auto; padding: 5px 15px;
+	
+	background: #f1f1f1;
+	border: 1px #ccc solid;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+	text-shadow: #fff 0 1px 0;
+}
+.controls h1 {margin-bottom: 15px; font-size: 14px; font-weight: bold;}
+.controls .key {
+	float: left;
+	margin-right: 5px; padding: 3px 6px;
+	
+	color: #fff;
+	background: #333;
+	font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace; font-weight: bold;
+	border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	text-shadow: #000 0 1px 0;
+}
+.controls .act {
+	float: left;
+	margin: 3px 20px 0 0;
+	
+	color: #777;
+	font-size: 12px;
+}
+.controls .act:last-child {margin-right: 0;}
+
+.pg {margin-bottom: 50px; text-align: center;}
+.hide {display: none;}
+
+.footer {
+	margin-bottom: 50px;
+	
+	color: #999;
+	font-size: 12px;
+	text-align: center;
+}
+.footer a {color: #333; text-decoration: none;}
+.footer a:hover {color: #333; text-decoration: underline;}
+
+.egg {
+	position: fixed;
+	width: 420px; height: 315px;
+	margin: -158px 0 0 -210px; padding: 25px;
+	top: 50%; left: 50%;
+	
+	background: #fff;
+	border: 2px #ccc solid;
+	border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
+	box-shadow: #ccc 0 0 20px;
+}
