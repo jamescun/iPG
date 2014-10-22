@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(//fonts.googleapis.com/css?family=Lato:400,700);
 
 body {
 	font: 14px 'Lato', sans-serif;
@@ -85,4 +85,8 @@ a:hover {color: #336699; text-decoration: underline;}
 	border: 2px #ccc solid;
 	border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
 	box-shadow: #ccc 0 0 20px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master
